@@ -1,0 +1,19 @@
+{% extends 'basic.html' %}
+{% block title %} Main {% endblock %}
+{% block body %}
+{% load static %}
+<div id="carouselExampleSlidesOnly" class="container" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="{%static 'virus.jpg'%}" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+
+<div class="container my-4">
+<div class="starter-template">
+    <h1>{{ selected.title }}</h1>
+    <p class="lead py-3">{{ selected.content }}</p>
+  </div>
+</div>
+{% endblock %}
