@@ -26,9 +26,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '*pkm5998nq_msrq*@z7446!np_4&y07$y2mn$2dl8%yd0rcf&n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://artefactshruti.herokuapp.com/','http://127.0.0.1:8000/']
 
 
 # Application definition
